@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Nature.UI.WebControl.MetaControl.Form.BaseForm">
+    <Position X="9.75" Y="4.25" Width="4" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>oBCIAAgAQCAAABQQAAAgIEACABAAgACAWQRAASCBDAQ=</HashCode>
+      <FileName>Form\BaseForm.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nature.UI.WebControl.MetaControl.Form.MyDataBoundControl">
+    <Position X="12.25" Y="0.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAQCAAAAgAAAAAACAAAAAAAgQAAEAAAAAAAAAAgAA=</HashCode>
+      <FileName>Form\MyDataBoundControl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nature.UI.WebControl.MetaControl.DataForm">
+    <Position X="12.5" Y="12" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQBBAAAAAAAAAQAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.UI.WebControl.MetaControl.DataGridList">
+    <Position X="15" Y="4.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AIEAAAACAAAAAAQAAAAAAAAAAAAAAAAAABAAAAAAEAA=</HashCode>
+      <FileName>DataGridList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.UI.WebControl.MetaControl.FindForm">
+    <Position X="8.5" Y="12" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABBAIIAAAAACAAAKQQQAAAAAIAAAAAA=</HashCode>
+      <FileName>FindForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.UI.WebControl.MetaControl.OperationButtonBar">
+    <Position X="15" Y="7.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQAQCAAAAAAABAAAAAAAAAAAAAAAAAAABgBAAAAgAA=</HashCode>
+      <FileName>OperationButtonBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="9.75" />
+</ClassDiagram>

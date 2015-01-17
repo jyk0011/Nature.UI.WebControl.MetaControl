@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C737E143-4B8F-45AA-A0DD-11FD907B0B83}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Nature.UI.WebControl.MetaControl</RootNamespace>
+    <AssemblyName>Nature.UI.WebControl.MetaControl</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\_dll\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\..\_dll\bin\Nature.UI.WebControl.MetaControl.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\Nature.UI.WebControl.MetaControl.XML</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form\BaseForm.cs" />
+    <Compile Include="Form\BaseForm_Event.cs" />
+    <Compile Include="Form\BaseForm_Property.cs" />
+    <Compile Include="FindForm.cs" />
+    <Compile Include="DataForm.cs" />
+    <Compile Include="Form\MyDataBoundControl.cs" />
+    <Compile Include="OperationButtonBar.cs" />
+    <Compile Include="DataGridList.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="表格、表单、查询的关系.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Nature.Common\Nature.Common.csproj">
+      <Project>{55DC3025-75A9-441C-9D75-7652E46900F5}</Project>
+      <Name>Nature.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nature.DataAccessLibrary\Nature.DataAccessLibrary.csproj">
+      <Project>{75BC6E2B-B380-4CFB-BAF2-BA7C568E1778}</Project>
+      <Name>Nature.DataAccessLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nature.MetaData\Nature.MetaData.csproj">
+      <Project>{98C10895-982D-4B38-A5C9-C0B2552FF3F7}</Project>
+      <Name>Nature.MetaData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nature.UI.WebControl.BaseControl\Nature.UI.WebControl.BaseControl.csproj">
+      <Project>{62B7E147-FB87-4162-80DA-E74416C0A06F}</Project>
+      <Name>Nature.UI.WebControl.BaseControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nature.User\Nature.User.csproj">
+      <Project>{A620E323-E2B4-4767-BFF6-95B9B713758D}</Project>
+      <Name>Nature.User</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
